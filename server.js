@@ -10,14 +10,14 @@ app.get('/', function (req, res) {
 });
 app.get('/artical-one',function(req,res){
   res.sent('Artical -one is calles here');
-})
+});
 app.get('/artical-two',function(req,res){
   res.sent('artical-two is called by the user');
-})
+});
 app.get('/artical -three',function(req,res)
 {
  res.sent('artical three is called by the user');
-})
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
