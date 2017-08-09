@@ -8,8 +8,8 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/article',function(req,res){
-  res.sent('Artical -one is calles here');
+app.get('/article-one',function(req,res){
+  res.sent('Article one is serve here');
 });
 app.get('/article-two',function(req,res){
   res.sent('artical-two is called by the user');
